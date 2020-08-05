@@ -1,0 +1,42 @@
+@use 'src/styles/vars.scss';
+
+.task{
+  background-color: vars.$color-alt;
+  padding: 15px;
+  border-radius: 5px;
+  width:450px;
+  margin-top: 5px;
+  color: vars.$light-color;
+
+    &-block{
+      display: flex;
+      align-items: center;
+    }
+
+    &-done{
+      text-decoration: line-through;
+      background-color: vars.$dark-color;
+    }
+
+    &-fav-button{
+      font-size: 2rem;
+      color:vars.$light-color;
+      cursor: pointer;
+    }
+
+    &-delete-button{
+      font-size:1.3rem;
+      font-weight: 700;
+      color: vars.$dark-color;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    &--delete-task{
+      padding:3px;
+      color:white;
+      background: vars.$color;
+      border-radius: 3px;
+    }
+}
+

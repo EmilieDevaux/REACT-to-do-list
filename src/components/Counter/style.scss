@@ -1,0 +1,9 @@
+@use 'src/styles/vars.scss';
+
+.todo-counter{
+  margin-top: 4rem;
+  border-bottom: 1px solid vars.$dark-color;
+  color: vars.$light-color;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}

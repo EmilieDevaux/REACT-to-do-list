@@ -1,0 +1,23 @@
+@use 'src/styles/vars.scss';
+
+.todo-input{
+  background-color: vars.$color-alt;
+  border: 1px solid vars.$light-color;
+  height: 2.5em;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 1em;
+  color: #fff;
+  box-shadow: vars.$shadow;}
+
+  h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: vars.$color;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+  }
